@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Felipe Dev</title>
+    <link rel="stylesheet" type="text/css" href="src/styles/style.css">
+    <link rel="icon" type="image/x-icon" href="src/assets/img/logo/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="boxlogo">
+        <img src="src/assets/img/logo/Felipe Dev Logo transp white.png" class="logo" alt="FelipeDEV Logo">
+    </div>
+
+    <div class="box-login">
+        <div class="content">
+            <h4 style="margin-bottom: 10px;">Please enter your details</h4>
+            <h1 style="margin-bottom:50px; margin-top: 0px;">Welcome back</h1>
+            <form method="post">
+                <input class="email-input" type="email" name="email" placeholder="Email address" required>
+                <br>
+                <input class="password-input" type="password" name="password" placeholder="Password" required>
+                <br>
+                <div class="rmb-fgt">
+                    <div class="rmbr">
+                        <input id="remember" type="checkbox">
+                        <label for="remember">Remember for 30 days</label>
+                    </div> 
+                    <a href="">
+                        <p class="forgotpass">Forgot password</p>
+                    </a>   
+                </div>
+                <input class="signin-button" type="submit" name="submit" value="Sign in">
+                <button type="button" class="logingoogle" >
+                    Sign in with Google
+                </button>
+            </form>
+            <div  class="signup">
+                <p>Don’t have an account? <a href="src/pages/signup.html">Sign up</a></p>
+            </div>
+        </div>   
+    </div>
+    
+</body>
+<script src="src/scripts/script.js"></script>
+</html>

@@ -1,0 +1,235 @@
+:root {
+    --primary: #E83D3D;
+    --secondary: #A41313;
+    --light:#fbfbfb;
+    --dark-1:#2D2C2C;
+    --dark-2:#525151;
+    --dark-lowopacity:rgba(45, 44, 44, 0.7);
+}
+
+body {
+    background-image: url('../assets/img/background/background.jpg');
+    padding: 70px;
+    background-color: var(--dark-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 85px;
+}
+
+.logo:hover {
+    margin-top: -3px;
+    transition: ease-in;
+}
+
+.box-login {
+    border-radius: 30px;
+    background-color: var(--light);
+    padding: 55px;
+    height: 690px;
+    width:553px;
+    box-sizing: border-box;
+    
+}
+
+.email-input, .password-input {
+    border: var(--dark-1) solid 1.3px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    color: var(--dark-2);
+    
+}
+.email-input {
+    margin-bottom: 15px;
+}
+.password-input {
+    margin-top: 15px;
+}
+
+.signin-button {
+    color: var(--light);
+    background-color: var(--secondary);
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    margin-bottom: 7.5px;
+    margin-top: 30px;
+}
+
+.signin-button:hover {
+    background-color: var(--primary);
+    box-shadow: 0px 2px 8px var(--dark-2);
+}
+
+.logingoogle {    
+    padding: 15px;
+    background-color: var(--light);
+    border: var(--dark-1) solid 1.3px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 7.5px;
+    color: var(--dark-2);   
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-repeat: no-repeat;
+    background-position: 125px 15px;
+    text-align: center;
+    background-size: 25px;
+}
+
+.logingoogle:hover {
+    box-shadow: 0px 2px 8px var(--dark-2);
+}
+
+.rmb-fgt {
+    flex-direction: row;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.signup {
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+label {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.forgotpass, a {
+    color: var(--secondary);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.forgotpass:hover, a:hover {
+    color: var(--primary);
+}
+
+.signup p{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+}
+
+.logingoogle:hover, .signin-button:hover {
+    cursor: pointer;
+}
+
+@media (max-width:790px) {
+    * {
+        padding: 3vh;
+        padding-top: 0;
+    }
+
+    .logo {
+    width: 200px;
+    margin-bottom: 0;
+}
+
+.box-login {
+    width: 350px;
+    padding: 2vh;
+}
+
+.content h4 {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 40px;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+form {
+    padding: 0;
+}
+
+.password-input {
+    margin-top: 0;
+    width: 100%;
+}
+
+.email-input {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.rmb-fgt {
+    flex-direction: column;
+    padding: 0;
+}
+
+.rmbr label {
+    padding: 0;
+}
+
+.forgotpass {
+    margin: 0;
+    padding: 0;
+}
+
+.signup {
+    padding: 0;
+    margin: 0;
+}
+
+.signup p {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.signin-button {
+    margin-top: 0;
+}
+
+.signup a {
+    padding: 0;
+}
+
+.logingoogle {    
+    background-position: 40px 15px;
+}
+}

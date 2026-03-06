@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/logo/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../global.css">
+    <link rel="stylesheet" type="text/css" href="../signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <title>Sign Up - Felipe Dev</title>
+</head>
+<body>
+
+    <header class="container_logo">
+        <a href="../../../index.html">
+            <img src="../../assets/img/logo/Felipe Dev Logo transp white.png" class="logo" alt="FelipeDEV Logo">
+        </a>
+    </header>
+
+    <main>
+        <div class="ge_info">
+            <h2> General Information</h2>
+            <form method="post" class="geform">
+                    <select name="titles" class="title">
+                        <option value="" disabled selected>Title</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Ms.">Ms.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Miss.">Miss</option>
+                        <option value="none">None</option>
+                    </select>
+
+                    <br>
+
+                    <input type="text" required placeholder="First Name" name="name" class="name">
+
+                    <input type="text" required placeholder="Last Name" name="last name" class="lname">
+
+                    <br>
+
+                    <input type="name" required placeholder="Company" class="company">
+
+                    <br>
+
+                    <input name="bussiness" placeholder="Bussiness Arena" class="bussiness">
+
+                    <select name="employees" class="employees">
+                        <option value="" disabled selected>Employees</option>
+                        <option value="0-50">0 - 50 Employees</option>
+                        <option value="0-50">51 - 250 Employees</option>
+                        <option value="0-50">251 - 600 Employees</option>
+                        <option value="0-50">600 - 1000 Employees</option>
+                        <option value="0-50">1000 + Employees</option>
+                    </select>
+
+                </div>
+            </form>
+        </div>
+        <div class="ctc_details">
+
+            <h2> Contact Details</h2>
+
+            <form method="post" class="geform">
+                
+                <input type="text" name="address" required placeholder="Street + Nr" class="street">
+
+                <br>
+
+                <input type="text" name="address2" placeholder="Additional Information" class="adc">
+
+                <br>
+
+                <input type="number" name="Zip Code" required placeholder="Zip Code" maxlength="5" class="zipcode">
+
+                <select name="Country" required class="country">
+                        <option value="" disabled selected>Country</option>
+                        <option value="United States">United States</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+
+                    <br>
+
+                    <input type="number" name="area code" required placeholder="Code +" class="areac">
+
+                    <input type="number" name="Phone Number" required placeholder="Phone Number" class="phone">
+
+                    <br>
+
+                    <input type="email" name="email" required placeholder="Your Email" class="email">
+
+                    <br>
+
+                    <input id="remember" type="checkbox">
+                    <label for="remember" class="terms">I do Accept the <a href="">Terms and Conditions </a> of our site</label>
+
+                    <br>
+
+                    <input type="submit" value="Register" class="signin-button">
+                
+            </form>
+        </div>
+
+    </main>
+
+
+    
+</body>
+</html>
