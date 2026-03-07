@@ -23,13 +23,13 @@
         <div class="ge_info">
             <h2> General Information</h2>
             <form method="post" class="geform">
-                    <select name="titles" class="title">
-                        <option value="" disabled selected>Title</option>
-                        <option value="Mr.">Mr.</option>
-                        <option value="Ms.">Ms.</option>
-                        <option value="Mrs.">Mrs.</option>
-                        <option value="Miss.">Miss</option>
-                        <option value="none">None</option>
+                    <select name="rank" class="rank">
+                        <option value="" disabled selected>Rank</option>
+                        <option value="Genin">Genin</option>
+                        <option value="Chunin">Chunin</option>
+                        <option value="Jonin">Jonin</option>
+                        <option value="Anbu">Anbu</option>
+                        <option value="Hokage">Hokage</option>
                     </select>
 
                     <br>
@@ -40,20 +40,8 @@
 
                     <br>
 
-                    <input type="name" required placeholder="Company" class="company">
-
-                    <br>
-
-                    <input name="bussiness" placeholder="Bussiness Arena" class="bussiness">
-
-                    <select name="employees" class="employees">
-                        <option value="" disabled selected>Employees</option>
-                        <option value="0-50">0 - 50 Employees</option>
-                        <option value="0-50">51 - 250 Employees</option>
-                        <option value="0-50">251 - 600 Employees</option>
-                        <option value="0-50">600 - 1000 Employees</option>
-                        <option value="0-50">1000 + Employees</option>
-                    </select>
+                    <input type="name" required placeholder="Clan" class="clan">
+           
 
                 </div>
             </form>
@@ -74,29 +62,26 @@
 
                 <input type="number" name="Zip Code" required placeholder="Zip Code" maxlength="5" class="zipcode">
 
-                <select name="Country" required class="country">
-                        <option value="" disabled selected>Country</option>
-                        <option value="United States">United States</option>
-                        <option value="Brazil">Brazil</option>
-                        <option value="Portugal">Portugal</option>
-                        <option value="Canada">Canada</option>
-                        <option value="Australia">Australia</option>
+                <select name="Zone" required class="zone">
+                        <option value="" disabled selected>Zone</option>
+                        <option value="Hokage District">Hokage District</option>
+                        <option value="Academy District">Academy District</option>
+                        <option value="Residential District">Residential District</option>
+                        <option value="Clan Districts">Clan Districts</option>
+                        <option value="Commercial District">Commercial District</option>
+                        <option value="Shinobi Operations District">Shinobi Operations District</option>
+                        <option value="Medical District">Medical District</option>
+                        <option value="Training Grounds Zone">Training Grounds Zone</option>
                     </select>
 
                     <br>
 
-                    <input type="number" name="area code" required placeholder="Code +" class="areac">
-
-                    <input type="number" name="Phone Number" required placeholder="Phone Number" class="phone">
-
-                    <br>
-
-                    <input type="email" name="email" required placeholder="Your Email" class="email">
+                    <input type="email" name="email" required placeholder="Your Ninja Email" class="email">
 
                     <br>
 
                     <input id="remember" type="checkbox">
-                    <label for="remember" class="terms">I do Accept the <a href="">Terms and Conditions </a> of our site</label>
+                    <label for="remember" class="terms">I do Accept Konoha's <a href="">Terms and Conditions </a></label>
 
                     <br>
 

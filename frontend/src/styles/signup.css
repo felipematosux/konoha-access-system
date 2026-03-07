@@ -81,12 +81,12 @@ input, select {
     border-radius: 5px;
 }
 
-.title {
+.rank {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.company {
+.clan {
     width: 100%;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -103,21 +103,17 @@ input, select {
 }
 
 .zipcode,
-.country {
+.zone {
     width: 49.5%;
     margin-bottom: 20px;
 }
 
-select.country,
-select.country option {
+select.zone,
+select.zone option {
   color: var(--light);
 }
 
-.areac,
-.phone {
-    width: 49.5%;
-    margin-bottom: 20px;
-}
+
 
 .email {
     width: 100%;
@@ -168,16 +164,13 @@ h2 {
     width: 350px;
 }
 
-.title, .name, .lname, .company, .bussiness {
+.rank, .name, .lname, .clan {
     margin-bottom: 5px;
     width: 100%;
 }
 
-.employees {
-    width: 100%;
-}
 
-.company {
+.clan {
     margin-top: 0;
 }
 .logo {
@@ -189,7 +182,7 @@ h2 {
     padding: 0;
 }
 
-.street, .adc, .zipcode, .country, .areac, .phone, .email {
+.street, .adc, .zipcode, .zone, .email {
     width: 100%;
 }
 
